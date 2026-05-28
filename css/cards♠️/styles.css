@@ -1,0 +1,88 @@
+body{
+  background-color:beige;
+}
+h1{
+  text-align:center;
+  text-transform:uppercase;
+}
+h1::before,h1::after{
+  content:"♠️"
+}
+#playing-cards{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  flex-direction:row;
+  background-color:beige;
+  gap:20px;
+}
+.card{
+  border:1px solid black;
+  display:flex;
+  min-height:400px;
+  max-width:300px;
+  justify-content:center;
+  border-radius:20px;
+  margin-bottom:20px;
+  margin-top:20px;
+  box-shadow: 0 10px 20px grey;
+  background-color:white;
+}
+
+.left{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:flex-start;
+  min-width:100px;
+  margin:0;
+}
+.middle{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  min-width:100px;
+}
+.right{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  justify-content:flex-end;
+  min-width:100px;
+}
+h2{
+  margin:0px;
+  font-weight:bold;
+  font-size:32px
+}
+.middle-symbol{
+  font-size:60px;
+}
+.bottom{
+  display:inline-block;
+  transform:rotate(180deg);
+  margin-right:5px;
+}
+.top{
+ margin-left:7px;
+ margin-top:7px;
+}
+.diamond,.heart{
+  color:red;
+}
+.middle > .number-stack{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:start;
+  gap:2px;
+}
+.number-stack > h2{
+  margin:0;
+}
+.card:hover{
+  box-shadow:0 10px 20px;
+}
+
