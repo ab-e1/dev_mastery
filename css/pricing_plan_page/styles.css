@@ -40,12 +40,13 @@ h1{
 }
 button{
   color:white;
-  background-color:rgb(127, 3, 129);
-  border-radius:7px;
+  background-color:rgb(56, 56, 239);
+  border-radius:5px;
   margin:10px;
   width:100px;
   height:auto;
   font-size:17px;
+  box-shadow: 0 5px 10px white;
 }
 .pricing-card:hover{
   margin:0px 15px;
