@@ -39,14 +39,19 @@ h1{
   content:"❌"
 }
 button{
-  color:white;
-  background-color:rgb(56, 56, 239);
+  color:black;
+  background-color:lightskyblue;
+  font-weight:bold;
   border-radius:5px;
   margin:10px;
   width:100px;
   height:auto;
   font-size:17px;
-  box-shadow: 0 5px 10px white;
+}
+button:hover{
+  background-color:rgb(216, 216, 6);
+  margin:10px;
+  box-shadow: 0 5px 10px;
 }
 .pricing-card:hover{
   margin:0px 15px;
