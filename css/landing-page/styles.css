@@ -56,7 +56,7 @@ img{
   height:300px;
   border-radius:10px;
   box-shadow:0 5px 5px;
-  
+  background:darkolivegreen;
 }
 #submit-button{
   color:black;
@@ -115,4 +115,7 @@ a{
 .card-plan:hover{
   transform: translateY(-8px);
   box-shadow:0 15px 15px;
+}
+#video{
+    border-radius:15px;
 }
