@@ -169,11 +169,13 @@ button:hover{
 }
 h3{
     margin-left:250px;
-    
+    text-align:right;
+
 }
 .contact-info{
     font-weight:300;
     font-size:18px;
+    text-align:center;
     
 }
 .cta-action-box{
